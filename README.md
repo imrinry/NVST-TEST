@@ -1,6 +1,18 @@
 # NVST-TEST
+  Hello, I am glad you are interested in my exam results.
 
-# Folder Structure
+You can run the following command to test the program.
+  ```sh
+go test -v
+```
+You can run the following command to test the program's performance.
+  ```sh
+go test -bench=.
+```
+
+
+# Structure
+```bash
 ├── handlers
 │   ├── user.go
 │   ├── interface.go
@@ -28,5 +40,6 @@
 ├── .env
 ├── .gitlab-ci.yml
 └── .gitignore
+```
 
 
